@@ -181,7 +181,7 @@ a:hover {
 
 .hero {
   height: 100vh;
-  background: url("../img/main-hero.jpg") no-repeat center;
+  background: url("../img/214181.png") no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
@@ -192,7 +192,7 @@ a:hover {
 .hero .hero-text {
   padding: 20vh 0 10vh 0;
   margin-right: -15px;
-  background: rgba(92, 219, 149, 0.8);
+  display: none;
   height: 100%;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 35% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 35% 100%);
