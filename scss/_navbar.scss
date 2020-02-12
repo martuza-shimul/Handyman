@@ -17,9 +17,9 @@
 		.nav-item {
 			padding: 0rem 0.2rem;
 			.nav-link {
-				color: $text-rev;
+				color: $secondary-color;
 				padding: 0.5rem 1rem;
-				font-weight: 500;
+				font-weight: 600;
 				letter-spacing: 1px;
 				border-radius: 0;
 				// font-family: "Josefin Sans", sans-serif;
@@ -30,20 +30,18 @@
 
 				&:hover {
 					// background: rgba($primary-color, 0.5);
-					background: lighten($text-color, 5);
+					background: lighten($primary-color, 5);
 				}
 			}
 			.button {
 				padding: 0.5rem 1rem;
-				background: $white;
-				color: $primary-color;
-				border-color: $white;
-				border-radius: 0;
+				color: $white;
+				letter-spacing: 2px;
 
 				&:hover {
-					background: $text-color;
-					color: $white;
-					border-color: $text-color;
+					background: $text-rev;
+					color: $secondary-color;
+					border-color: $secondary-color;
 				}
 			}
 		}
@@ -65,13 +63,13 @@
 				}
 				.button {
 					// color: $text-rev;
-					background: $primary-color;
+					background: $secondary-color;
 					color: $white;
-					border-color: $primary-color;
+					border-color: $secondary-color;
 					&:hover {
-						color: $text-rev;
-						background: $text-color;
-						border-color: $text-color;
+						background: $primary-color;
+					color: $secondary-color;
+					border-color: $primary-color;
 					}
 				}
 			}

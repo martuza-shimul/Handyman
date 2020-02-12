@@ -14,20 +14,20 @@
 }
 
 .button {
-  background: #e30a17;
+  background: #05386b;
   color: #f2f2f2;
   padding: 1rem 1.5rem;
-  font-weight: 900;
-  border: 1.5px solid #e30a17;
+  font-weight: 700;
+  border: 1.5px solid #05386b;
   border-radius: 0px;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
 
 .button:hover {
-  background: #1e272e;
-  color: #fff;
-  border-color: #1e272e;
+  background: #5cdb95;
+  color: #05386b;
+  border-color: #05386b;
   -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
           box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transition: 0.3s ease-in;
@@ -46,7 +46,7 @@
 
 .form-group input,
 .form-group textarea {
-  border-color: #e30a17;
+  border-color: #5cdb95;
 }
 
 .equal {
@@ -83,7 +83,7 @@
 }
 
 a {
-  color: #e30a17;
+  color: #5cdb95;
 }
 
 a:hover {
@@ -111,9 +111,9 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #f2f2f2;
+  color: #05386b;
   padding: 0.5rem 1rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   border-radius: 0;
   font-family: "Roboto", sans-serif;
@@ -121,21 +121,19 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  background: #28343d;
+  background: #71e0a3;
 }
 
 .navbar .navbar-nav .nav-item .button {
   padding: 0.5rem 1rem;
-  background: #fff;
-  color: #e30a17;
-  border-color: #fff;
-  border-radius: 0;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 .navbar .navbar-nav .nav-item .button:hover {
-  background: #1e272e;
-  color: #fff;
-  border-color: #1e272e;
+  background: #f2f2f2;
+  color: #05386b;
+  border-color: #05386b;
 }
 
 .navbar.scrolled {
@@ -144,7 +142,7 @@ a:hover {
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link {
-  color: #e30a17;
+  color: #5cdb95;
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link:hover {
@@ -152,15 +150,15 @@ a:hover {
 }
 
 .navbar.scrolled .navbar-nav .nav-item .button {
-  background: #e30a17;
+  background: #05386b;
   color: #fff;
-  border-color: #e30a17;
+  border-color: #05386b;
 }
 
 .navbar.scrolled .navbar-nav .nav-item .button:hover {
-  color: #f2f2f2;
-  background: #1e272e;
-  border-color: #1e272e;
+  background: #5cdb95;
+  color: #05386b;
+  border-color: #5cdb95;
 }
 
 .quote-engine-wrapper h5 {
@@ -194,7 +192,7 @@ a:hover {
 .hero .hero-text {
   padding: 20vh 0 10vh 0;
   margin-right: -15px;
-  background: rgba(227, 10, 23, 0.8);
+  background: rgba(92, 219, 149, 0.8);
   height: 100%;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 35% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 35% 100%);
@@ -238,7 +236,7 @@ a:hover {
 
 .hero .hero-text .hero-button .button {
   background: #fff;
-  color: #e30a17;
+  color: #5cdb95;
   border-color: #fff;
 }
 
@@ -256,7 +254,7 @@ a:hover {
 
 .hero .hero-text .hero-button .button-second:hover {
   background: #fff;
-  color: #e30a17;
+  color: #5cdb95;
   border-color: #fff;
 }
 
@@ -266,7 +264,7 @@ a:hover {
 }
 
 .hero-shapes .hs-content {
-  background: rgba(227, 10, 23, 0.7);
+  background: rgba(92, 219, 149, 0.7);
   padding: 5% 10% 5% 5%;
   -webkit-clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
@@ -306,7 +304,7 @@ a:hover {
 }
 
 .what-is {
-  background: #40e0d0;
+  background: #05386b;
   padding: 5vh 0;
 }
 
@@ -337,7 +335,7 @@ a:hover {
 .feature-wrapper .feature-icon img {
   background: #f2f2f2;
   padding: 1.2rem;
-  border: 5px solid #e30a17;
+  border: 5px solid #5cdb95;
   border-radius: 50%;
 }
 
@@ -411,11 +409,11 @@ a:hover {
 
 .wu-content-image {
   padding: 1rem;
-  background: #e30a17;
+  background: #5cdb95;
 }
 
 .what-we-do {
-  background: linear-gradient(109.6deg, #1e272e 11.2%, #e30a17 81.1%), url("../img/hero1.jpg") no-repeat center;
+  background: linear-gradient(109.6deg, #1e272e 11.2%, #5cdb95 81.1%), url("../img/hero1.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
@@ -478,7 +476,7 @@ a:hover {
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50%;
-  background-color: #e30a17;
+  background-color: #5cdb95;
   color: #f2f2f2;
   max-height: 50px;
   z-index: 2;
@@ -529,7 +527,7 @@ a:hover {
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #e30a17;
+  border-left: 3px solid #5cdb95;
   z-index: 1;
 }
 
@@ -561,7 +559,7 @@ a:hover {
 }
 
 .timeline hr {
-  border-top: 3px solid #e30a17;
+  border-top: 3px solid #5cdb95;
   margin: 0;
   top: 17px;
   position: relative;
@@ -575,7 +573,7 @@ a:hover {
 }
 
 .timeline .corner {
-  border: 3px solid #e30a17;
+  border: 3px solid #5cdb95;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -697,7 +695,7 @@ a:hover {
 
 .contact .contact-form .form-group input,
 .contact .contact-form .form-group textarea {
-  border-color: #e30a17;
+  border-color: #5cdb95;
 }
 
 .area-cover {
@@ -733,11 +731,11 @@ a:hover {
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #40e0d0;
+  background-color: #05386b;
 }
 
 .sticky-mobile {
-  background: #e30a17;
+  background: #5cdb95;
   color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
@@ -776,7 +774,7 @@ a:hover {
 }
 
 .footer {
-  background: #e30a17;
+  background: #5cdb95;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
@@ -794,8 +792,8 @@ a:hover {
 .page-header {
   height: 60vh;
   padding: 15vh 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(227, 10, 23, 0.5)), to(rgba(30, 39, 46, 0.3))), url("../img/hero.jpg") no-repeat bottom;
-  background: linear-gradient(rgba(227, 10, 23, 0.5), rgba(30, 39, 46, 0.3)), url("../img/hero.jpg") no-repeat bottom;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 219, 149, 0.5)), to(rgba(30, 39, 46, 0.3))), url("../img/hero.jpg") no-repeat bottom;
+  background: linear-gradient(rgba(92, 219, 149, 0.5), rgba(30, 39, 46, 0.3)), url("../img/hero.jpg") no-repeat bottom;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -809,7 +807,7 @@ a:hover {
 .page-header .ph-text .ph-title h1 {
   font-weight: 900;
   font-size: 2.3rem;
-  background: rgba(227, 10, 23, 0.8);
+  background: rgba(92, 219, 149, 0.8);
   display: inline-block;
   padding: 2rem;
 }
@@ -920,8 +918,8 @@ a:hover {
     font-weight: 900;
   }
   .hero {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.7)), to(rgba(227, 10, 23, 0.8))), url("../img/main-hero.jpg") no-repeat center;
-    background: linear-gradient(rgba(30, 39, 46, 0.7), rgba(227, 10, 23, 0.8)), url("../img/main-hero.jpg") no-repeat center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.7)), to(rgba(92, 219, 149, 0.8))), url("../img/main-hero.jpg") no-repeat center;
+    background: linear-gradient(rgba(30, 39, 46, 0.7), rgba(92, 219, 149, 0.8)), url("../img/main-hero.jpg") no-repeat center;
   }
   .hero .hero-text {
     background: transparent;
@@ -964,7 +962,7 @@ a:hover {
     font-weight: 600;
   }
   .services::after {
-    border-bottom: 100px solid #40e0d0;
+    border-bottom: 100px solid #05386b;
     -webkit-clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
   }
@@ -1029,7 +1027,7 @@ a:hover {
     padding: 0 4%;
   }
   .services::after {
-    border-bottom: 80px solid #40e0d0;
+    border-bottom: 80px solid #05386b;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
   }

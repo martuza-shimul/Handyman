@@ -13,21 +13,21 @@
 }
 
 .button {
-	background: $primary-color;
+	background: $secondary-color;
 
 	color: $text-rev;
 
 	padding: 1rem 1.5rem;
-	font-weight: 900;
-	border: 1.5px solid $primary-color;
+	font-weight: 700;
+	border: 1.5px solid $secondary-color;
 	border-radius: 0px;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 
 	&:hover {
-		background: $text-color;
-		color: $white;
-		border-color: $text-color;
+		background: $primary-color;
+		color: $secondary-color;
+		border-color: $secondary-color;
 		// box-shadow: 3px 0px 8px 2px $shad;
 		box-shadow: rgba($text-color, 0.5) 0px 10px 10px -10px;
 		// transform: scale(1.01);
