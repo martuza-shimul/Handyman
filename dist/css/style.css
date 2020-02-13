@@ -55,7 +55,7 @@
   color: #5cdb95;
   text-transform: capitalize;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .wb-button i {
@@ -131,7 +131,7 @@ a:hover {
 
 .navbar {
   color: #f2f2f2;
-  text-transform: uppercase;
+  text-transform: capitalize;
   position: fixed;
   height: 85px;
   width: 100vw;
@@ -179,10 +179,6 @@ a:hover {
 .navbar.scrolled {
   height: 65px;
   background: rgba(242, 242, 242, 0.9);
-}
-
-.navbar.scrolled .navbar-nav .nav-item .nav-link {
-  color: #5cdb95;
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link:hover {
@@ -432,7 +428,6 @@ a:hover {
 }
 
 .why-us {
-  background: #fff;
   padding: 8vh 0;
   color: #1e272e;
 }
@@ -451,6 +446,49 @@ a:hover {
 .wu-content-image {
   padding: 1rem;
   background: #5cdb95;
+}
+
+.sub-heading,
+.ec-heading {
+  color: #1e272e;
+  padding-bottom: 2rem;
+}
+
+.sub-heading h5,
+.ec-heading h5 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.ec-image img {
+  margin: 0 auto;
+}
+
+.ec-iconbox {
+  padding: 1rem 0;
+}
+
+.ec-iconbox .ec-icon-holder {
+  margin: 1rem 0;
+}
+
+.ec-iconbox .ec-icon-heading {
+  color: #1e272e;
+}
+
+.ec-iconbox .ec-icon-heading h5 {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.ec-iconbox .ec-icon-text p {
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+  font-weight: 500;
 }
 
 .what-we-do {
@@ -643,48 +681,6 @@ a:hover {
 .experience {
   padding: 10vh 0;
   background: #fff;
-}
-
-.sub-heading,
-.ec-heading {
-  color: #1e272e;
-  padding-bottom: 2rem;
-}
-
-.sub-heading h5,
-.ec-heading h5 {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  font-weight: 500;
-}
-
-.ec-image img {
-  margin: 0 auto;
-}
-
-.ec-iconbox {
-  padding: 1rem 0;
-}
-
-.ec-iconbox .ec-icon-holder {
-  margin: 0.5rem 0;
-}
-
-.ec-iconbox .ec-icon-heading {
-  color: #1e272e;
-}
-
-.ec-iconbox .ec-icon-heading h5 {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.ec-iconbox .ec-icon-text p {
-  font-size: 0.95rem;
-  line-height: 1.3rem;
-  font-weight: 400;
 }
 
 .contact {

@@ -1,6 +1,6 @@
 .navbar {
 	color: $text-rev;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	position: fixed;
 	// top: 0;
 	// left: 0;
@@ -54,7 +54,7 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: $primary-color;
+					// color: $se-color;
 					// font-weight: 600;
 
 					&:hover {

@@ -1,5 +1,5 @@
 .why-us {
-	background: $white;
+	// background: $white;
 	padding: 8vh 0;
 	color: $text-color;
 
@@ -23,4 +23,45 @@
 	padding: 1rem;
 	// background: lighten($primary-color, 5);
 	background: $primary-color;
+}
+.sub-heading,
+.ec-heading {
+	color: $text-color;
+	padding-bottom: 2rem;
+	h5 {
+		font-size: 1.2rem;
+		line-height: 2rem;
+		font-weight: 500;
+	}
+}
+.ec-image {
+	// color: $text-color;
+	img {
+		margin: 0 auto;
+	}
+}
+.ec-iconbox {
+	padding: 1rem 0;
+	.ec-icon-holder {
+		margin: 1rem 0;
+	}
+	.ec-icon-heading {
+		color: $text-color;
+		h5 {
+			font-size: 1.3rem;
+			// font-family: "Josefin Sans", sans-serif;
+			// font-family: "Montserrat", sans-serif;
+			line-height: 1.7rem;
+			font-weight: 600;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+	}
+	.ec-icon-text {
+		p {
+			font-size: 0.95rem;
+			line-height: 1.3rem;
+			font-weight: 500;
+		}
+	}
 }
