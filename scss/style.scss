@@ -4,6 +4,7 @@
 @import "./navbar";
 @import "./modal";
 @import "./hero";
+@import "./services";
 @import "./feature";
 @import "./h-works";
 @import "./why-us";
@@ -46,8 +47,8 @@ body {
 	}
 }
 ::selection {
-	color: $text-rev;
-	background: $text-color;
+	color: $secondary-color;
+	background: $primary-color;
 }
 
 .light {

@@ -1,0 +1,24 @@
+
+
+.card-holder {
+  background: rgba($white, 0.9);
+
+  .ch-content-holder, .ch-footer{
+    margin: 1rem;
+    padding: 1rem 0;
+  }
+  .ch-content-holder{
+    border-bottom: 2px solid $text-rev;
+    .sub-heading{
+      
+      h5{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: $secondary-color;
+      }
+    }
+    .star{
+      color: $primary-color;
+    }
+  }
+}

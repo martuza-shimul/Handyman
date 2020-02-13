@@ -1,10 +1,10 @@
 .heading {
 	padding: 0 0 30px 0;
 	h1 {
-		font-size: 2.2rem;
+		font-size: 2rem;
 		line-height: 3.1rem;
 		font-weight: 900;
-		color: $text-color;
+		color: $secondary-color;
 		text-transform: uppercase;
 		// text-align: center;
 		letter-spacing: 2px;
@@ -13,26 +13,51 @@
 }
 
 .button {
-	background: $secondary-color;
+	background: $primary-color;
 
-	color: $text-rev;
+	color: $secondary-color;
 
 	padding: 1rem 1.5rem;
 	font-weight: 700;
-	border: 1.5px solid $secondary-color;
+	border: 1.5px solid $primary-color;
 	border-radius: 0px;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 
 	&:hover {
-		background: $primary-color;
-		color: $secondary-color;
+		background: $secondary-color;
+		color: $text-rev;
 		border-color: $secondary-color;
 		// box-shadow: 3px 0px 8px 2px $shad;
 		box-shadow: rgba($text-color, 0.5) 0px 10px 10px -10px;
 		// transform: scale(1.01);
 		transition: 0.3s ease-in;
 		z-index: 3;
+	}
+}
+.button-second {
+	background: $secondary-color;
+	color: $white;
+	border-color: $secondary-color;
+	// letter-spacing: 2px;
+	&:hover {
+		background: $primary-color;
+		color: $secondary-color;
+		border-color: $primary-color;
+	}
+}
+.wb-button{
+	border: none;
+	background: transparent;
+	font-size: 1.18rem;
+	line-height: 2rem;
+	color: $primary-color;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	font-weight: 600;
+
+	i{
+		color: $secondary-color;
 	}
 }
 .hide {

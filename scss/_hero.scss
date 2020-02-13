@@ -1,35 +1,40 @@
 .hero {
 	height: 100vh;
-	// background: linear-gradient(rgba($text-color, 0.4), rgba($primary-color, 0.2)),
-	// 	url("../img/main-hero.jpg") no-repeat bottom;
+	// background: 
+	// url("../img/214181.png") no-repeat bottom, url(../img/overaly.png) repeat;
 	background:  url("../img/214181.png") no-repeat bottom;
 	background-size: cover;
 	background-attachment: fixed;
 	background-blend-mode: multiply;
-	// padding: 5vh 0;
+	padding: 30vh 0 20vh 0;
 	// background-color: $primary-color;
 	position: relative;
-	// display: flex;
+	text-align: center;
 	color: $text-color;
 
 	.hero-text {
-		padding: 20vh 0 10vh 0;
-		margin-right: -15px;
-		display: none;
-		// background: rgba($primary-color, 0.8);
+		padding: 5vh 0;
+		// margin-right: -15px;
+		// display: none;
+		// background: linear-gradient(
+		// 	109.6deg,
+		// 	rgba($primary-color, 0.9) 50.2%,
+		// 	rgba($secondary-color, 0.8) 81.1%
+		// );
+		background: rgba($text-color, 0.75);
+		// background-blend-mode: multiply;
 		// flex: 1;
-		height: 100%;
-		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 35% 100%);
-		.hero-text-content {
-			padding-left: 8%;
-		}
+		// height: 100%;
+		// clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 30% 100%, 10% 50%);
+		// clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 35% 95%);
+		
 		.heading {
-			margin-left: 5%;
+			// margin-left: 5%;
 
 			h1 {
 				color: $white;
-				font-size: 1.9rem;
-				line-height: 2.6rem;
+				font-size: 2rem;
+				line-height: 3.1rem;
 				font-weight: 700;
 				text-transform: capitalize;
 				letter-spacing: 2px;
@@ -56,28 +61,8 @@
 		.hero-button {
 			// margin-top: 5rem;
 			padding: 2vh;
-			.button {
-				background: $white;
-				color: $primary-color;
-				border-color: $white;
-				&:hover {
-					background: $text-color;
-					color: $white;
-					border-color: $text-color;
-				}
-			}
-			.button-second {
-				background: $text-color;
-				// box-shadow: 3px 0px 4px 0px $shad;
-				border-color: $text-color;
-				color: $white;
-
-				&:hover {
-					background: $white;
-					color: $primary-color;
-					border-color: $white;
-				}
-			}
+			
+			
 		}
 	}
 

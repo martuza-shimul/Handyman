@@ -36,10 +36,11 @@
 			.button {
 				padding: 0.5rem 1rem;
 				color: $white;
+				 background: $secondary-color;
 				letter-spacing: 2px;
 
 				&:hover {
-					background: $text-rev;
+					background: transparent;
 					color: $secondary-color;
 					border-color: $secondary-color;
 				}
