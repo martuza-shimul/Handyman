@@ -72,6 +72,10 @@
 
 .wb-button:hover i {
   color: #5cdb95;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .hide {
@@ -229,7 +233,7 @@ a:hover {
 
 .hero .hero-text {
   padding: 5vh 0;
-  background: rgba(30, 39, 46, 0.75);
+  background: rgba(30, 39, 46, 0.65);
 }
 
 .hero .hero-text .heading h1 {
