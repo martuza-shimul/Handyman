@@ -9,8 +9,8 @@
   font-weight: 900;
   color: #05386b;
   text-transform: uppercase;
+  text-align: center;
   letter-spacing: 2px;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 .button {
@@ -60,6 +60,18 @@
 
 .wb-button i {
   color: #05386b;
+  margin-left: 0.5rem;
+}
+
+.wb-button:hover {
+  text-decoration: none;
+  color: #05386b;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.wb-button:hover i {
+  color: #5cdb95;
 }
 
 .hide {
@@ -297,8 +309,15 @@ a:hover {
   font-weight: 500;
 }
 
+.services {
+  padding: 8vh 0;
+}
+
 .card-holder {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.7);
+  margin: 1.5rem 0;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
 }
 
 .card-holder .ch-content-holder, .card-holder .ch-footer {
@@ -314,10 +333,19 @@ a:hover {
   font-size: 1.3rem;
   font-weight: 600;
   color: #05386b;
+  text-transform: capitalize;
 }
 
 .card-holder .ch-content-holder .star {
   color: #5cdb95;
+}
+
+.card-holder:hover {
+  background: white;
+  -webkit-transform: translateY(-0.35rem);
+          transform: translateY(-0.35rem);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .what-is {

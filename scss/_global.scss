@@ -6,9 +6,9 @@
 		font-weight: 900;
 		color: $secondary-color;
 		text-transform: uppercase;
-		// text-align: center;
+		text-align: center;
 		letter-spacing: 2px;
-		font-family: "Josefin Sans", sans-serif;
+		// font-family: "Montserrat", sans-serif;
 	}
 }
 
@@ -58,6 +58,19 @@
 
 	i{
 		color: $secondary-color;
+		margin-left: 0.5rem;
+	}
+	&:hover {
+		text-decoration: none;
+		color: $secondary-color;
+		
+		transition:  0.3s ease-in;
+
+		i{
+			color: $primary-color;
+			
+		}
+		
 	}
 }
 .hide {
