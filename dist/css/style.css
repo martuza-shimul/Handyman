@@ -481,8 +481,9 @@ a:hover {
   font-size: 1.3rem;
   line-height: 1.7rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .ec-iconbox .ec-icon-text p {
@@ -492,35 +493,44 @@ a:hover {
 }
 
 .what-we-do {
-  background: linear-gradient(109.6deg, #1e272e 11.2%, #5cdb95 81.1%), url("../img/hero1.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
-  color: #fff;
   padding: 15vh 0;
 }
 
-.what-we-do .heading h1 {
-  color: #fff;
+.wwd-content-block {
+  margin: 1.5rem 0;
+  padding: 2.5rem 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
 }
 
-.what-we-do .wwd-content-block {
-  padding: 1.5rem 0.5rem;
-}
-
-.what-we-do .wwd-content-block h5 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  line-height: 1.9rem;
-  text-transform: uppercase;
+.wwd-content-block .icon-holder {
   margin-bottom: 1rem;
 }
 
-.what-we-do .wwd-content-block p {
+.wwd-content-block h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.9rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.wwd-content-block p {
   font-size: 1rem;
-  font-weight: 400;
-  color: #f2f2f2;
+  font-weight: 500;
+}
+
+.wwd-content-block:hover {
+  background: white;
+  -webkit-transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .what-we-do-dif {

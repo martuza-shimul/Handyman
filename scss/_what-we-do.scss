@@ -1,36 +1,45 @@
 .what-we-do {
-	background: linear-gradient(
-			109.6deg,
-			rgba($text-color, 1) 11.2%,
-			rgba($primary-color, 1) 81.1%
-		),
-		url("../img/hero1.jpg") no-repeat center;
+	// background: linear-gradient(
+	// 		109.6deg,
+	// 		rgba($text-color, 1) 11.2%,
+	// 		rgba($primary-color, 1) 81.1%
+	// 	),
+	// 	url("../img/hero1.jpg") no-repeat center;
 	// background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
 	background-size: cover;
 	background-attachment: fixed;
 	background-blend-mode: multiply;
-	color: $white;
+	// color: $white;
 	padding: 15vh 0;
-	.heading {
-		h1 {
-			color: $white;
-		}
+	
+	
+}
+
+.wwd-content-block {
+	margin: 1.5rem 0;
+	padding: 2.5rem 1rem;
+	background: rgba($white, 0.7);
+	box-shadow: rgba($text-color, 0.5) 0px 10px 10px -10px;
+	.icon-holder{
+		margin-bottom: 1rem;
 	}
-	.wwd-content-block {
-		padding: 1.5rem 0.5rem;
-		h5 {
-			font-size: 1.2rem;
-			font-weight: 600;
-			letter-spacing: 2px;
-			line-height: 1.9rem;
-			text-transform: uppercase;
-			margin-bottom: 1rem;
-		}
-		p {
-			font-size: 1rem;
-			font-weight: 400;
-			color: $text-rev;
-		}
+	h5 {
+		font-size: 1.2rem;
+		font-weight: 600;
+		letter-spacing: 1px;
+		line-height: 1.9rem;
+		text-transform: capitalize;
+		margin-bottom: 1rem;
+	}
+	p {
+		font-size: 1rem;
+		font-weight: 500;
+		
+	}
+	&:hover{
+		background: rgba($white, 1);
+		transform: translateY(-0.25rem);
+		transition: 0.3s ease-in;
 	}
 }
 
