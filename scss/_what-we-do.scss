@@ -18,8 +18,10 @@
 .wwd-content-block {
 	margin: 1.5rem 0;
 	padding: 2.5rem 1rem;
+	// border: 2px dashed $secondary-color;
 	background: rgba($white, 0.7);
-	box-shadow: rgba($text-color, 0.5) 0px 10px 10px -10px;
+	box-shadow: rgba($text-color, 0.2) 0px 5px 5px -5px;
+	
 	.icon-holder{
 		margin-bottom: 1rem;
 	}
@@ -38,8 +40,9 @@
 	}
 	&:hover{
 		background: rgba($white, 1);
+		box-shadow: rgba($text-color, 0.5) 0px 10px 10px -10px;
 		transform: translateY(-0.25rem);
-		transition: 0.3s ease-in;
+		transition: 0.4s ease-in;
 	}
 }
 

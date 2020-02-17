@@ -316,8 +316,8 @@ a:hover {
 .card-holder {
   background: rgba(255, 255, 255, 0.7);
   margin: 1.5rem 0;
-  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
-          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .card-holder .ch-content-holder, .card-holder .ch-footer {
@@ -342,6 +342,8 @@ a:hover {
 
 .card-holder:hover {
   background: white;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.35rem);
           transform: translateY(-0.35rem);
   -webkit-transition: 0.3s ease-in;
@@ -507,8 +509,8 @@ a:hover {
   margin: 1.5rem 0;
   padding: 2.5rem 1rem;
   background: rgba(255, 255, 255, 0.7);
-  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
-          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .wwd-content-block .icon-holder {
@@ -531,10 +533,12 @@ a:hover {
 
 .wwd-content-block:hover {
   background: white;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.25rem);
           transform: translateY(-0.25rem);
-  -webkit-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
 }
 
 .what-we-do-dif {
