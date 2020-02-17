@@ -171,6 +171,7 @@ a:hover {
   padding: 0.5rem 1rem;
   color: #fff;
   background: #05386b;
+  border-color: #05386b;
   letter-spacing: 2px;
 }
 
@@ -221,7 +222,7 @@ a:hover {
 
 .hero {
   height: 100vh;
-  background: url("../img/214181.png") no-repeat bottom;
+  background: url("../img/main-hero.jpg") no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;

@@ -2,7 +2,7 @@
 	height: 100vh;
 	// background: 
 	// url("../img/214181.png") no-repeat bottom, url(../img/overaly.png) repeat;
-	background:  url("../img/214181.png") no-repeat bottom;
+	background:  url("../img/main-hero.jpg") no-repeat bottom;
 	background-size: cover;
 	background-attachment: fixed;
 	background-blend-mode: multiply;
@@ -14,22 +14,15 @@
 
 	.hero-text {
 		padding: 5vh 0;
-		// margin-right: -15px;
-		// display: none;
-		// background: linear-gradient(
-		// 	109.6deg,
-		// 	rgba($primary-color, 0.9) 50.2%,
-		// 	rgba($secondary-color, 0.8) 81.1%
-		// );
+		
 		background: rgba($text-color, 0.65);
-		// background-blend-mode: multiply;
-		// flex: 1;
+		
 		// height: 100%;
 		// clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 30% 100%, 10% 50%);
 		// clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 35% 95%);
 		
 		.heading {
-			// margin-left: 5%;
+			
 
 			h1 {
 				color: $white;
@@ -40,7 +33,7 @@
 				letter-spacing: 2px;
 				// font-family: "Montserrat", sans-serif;
 				font-family: "Roboto", sans-serif;
-				// text-align: right;
+				
 			}
 		}
 		.sub-heading {
