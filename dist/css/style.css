@@ -696,9 +696,42 @@ a:hover {
   top: calc(50% - 3px);
 }
 
-.experience {
-  padding: 10vh 0;
-  background: #fff;
+.review {
+  padding: 5vh 0;
+}
+
+.review-content-wrapper {
+  padding: 2rem 1rem;
+}
+
+.review-content-wrapper .review-icon {
+  color: #5cdb95;
+  margin-bottom: 1.5rem;
+}
+
+.review-content-wrapper .review-rating {
+  color: #05386b;
+  margin-bottom: 0.5rem;
+}
+
+.review-content-wrapper .reviewer-info .name {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #32414d;
+}
+
+.review-content-wrapper .reviewer-info .company {
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  color: #465b6c;
+}
+
+.review-content-wrapper .review-text p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.review-content-wrapper .review-text .quote {
+  margin-right: 1rem;
 }
 
 .contact {

@@ -1,4 +1,37 @@
-.experience {
-	padding: 10vh 0;
-	background: $white;
+.review{
+	padding: 5vh 0;
+}
+.review-content-wrapper{
+	padding: 2rem 1rem;
+
+	.review-icon{
+		color: $primary-color;
+		margin-bottom: 1.5rem;
+	}
+	.review-rating{
+		color: $secondary-color;
+		margin-bottom: 0.5rem;
+	}
+	.reviewer-info{
+		
+		.name{
+			font-size: 0.9rem;
+			line-height: 1rem;
+			color: lighten($text-color, 10)
+		}
+		.company{
+			font-size: 0.8rem;
+			line-height: 0.9rem;
+			color: lighten($text-color, 20)
+		}
+	}
+	.review-text{
+		p{
+			font-family: "Josefin Sans", sans-serif;
+			
+		}
+		.quote{
+			margin-right: 1rem;
+		}
+	}
 }
