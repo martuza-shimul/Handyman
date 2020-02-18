@@ -183,23 +183,16 @@ a:hover {
 
 .navbar.scrolled {
   height: 65px;
-  background: rgba(242, 242, 242, 0.9);
+  background: rgba(92, 219, 149, 0.9);
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link:hover {
   background: white;
 }
 
-.navbar.scrolled .navbar-nav .nav-item .button {
-  background: #05386b;
-  color: #fff;
-  border-color: #05386b;
-}
-
 .navbar.scrolled .navbar-nav .nav-item .button:hover {
-  background: #5cdb95;
-  color: #05386b;
-  border-color: #5cdb95;
+  background: transparent;
+  border-color: #05386b;
 }
 
 .quote-engine-wrapper h5 {
@@ -733,6 +726,7 @@ a:hover {
 
 .review-content-wrapper .review-text .quote {
   margin-right: 1rem;
+  color: #5cdb95;
 }
 
 .contact {

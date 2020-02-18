@@ -51,7 +51,7 @@
 
 	&.scrolled {
 		height: 65px;
-		background: rgba($text-rev, 0.9);
+		background: rgba($primary-color, 0.9);
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
@@ -65,13 +65,11 @@
 				}
 				.button {
 					// color: $text-rev;
-					background: $secondary-color;
-					color: $white;
-					border-color: $secondary-color;
+					
 					&:hover {
-						background: $primary-color;
-					color: $secondary-color;
-					border-color: $primary-color;
+						background: transparent;
+					
+					border-color: $secondary-color;
 					}
 				}
 			}
