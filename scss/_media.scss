@@ -20,6 +20,12 @@
 			}
 		}
 	}
+	.review-text{
+		p{
+			font-size: 0.85rem;
+		}
+		
+	}
 }
 @media screen and (max-width: 991px) {
 	.heading {
@@ -57,11 +63,11 @@
 	}
 	.navbar {
 		&.scrolled {
-			background: darken($background, 50);
+			background: $primary-color;
 		}
 	}
 	.navbar-nav {
-		background: $text-color;
+		background: rgba($text-rev, 0.95);
 	}
 	.about {
 		.image-holder {
@@ -284,6 +290,7 @@
 			clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
 		}
 	}
+	
 	.contact {
 		padding-top: 30px;
 	}

@@ -933,6 +933,9 @@ a:hover {
     line-height: 1.3rem;
     font-weight: 500;
   }
+  .review-text p {
+    font-size: 0.85rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -958,10 +961,10 @@ a:hover {
     font-size: 1rem;
   }
   .navbar.scrolled {
-    background: #475b6e;
+    background: #5cdb95;
   }
   .navbar-nav {
-    background: #1e272e;
+    background: rgba(242, 242, 242, 0.95);
   }
   .about .image-holder {
     margin: 5% 1%;
