@@ -212,6 +212,17 @@ a:hover {
   margin: 0.3rem 2rem;
 }
 
+.quote-engine-wrapper p input[type=radio] {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.quote-engine-wrapper p span {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+}
+
 .quote-engine-wrapper .button {
   background: transparent;
   border-color: #05386b;
@@ -332,6 +343,10 @@ a:hover {
   margin: 1.5rem 0;
   -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
           box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+}
+
+.card-holder .ch-image-holder .img-fluid {
+  width: 100%;
 }
 
 .card-holder .ch-content-holder, .card-holder .ch-footer {
@@ -895,8 +910,7 @@ a:hover {
 .page-header {
   height: 60vh;
   padding: 15vh 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 219, 149, 0.5)), to(rgba(30, 39, 46, 0.3))), url("../img/hero.jpg") no-repeat bottom;
-  background: linear-gradient(rgba(92, 219, 149, 0.5), rgba(30, 39, 46, 0.3)), url("../img/hero.jpg") no-repeat bottom;
+  background: url("../img/21481.png") no-repeat bottom;
   background-size: cover;
   background-blend-mode: multiply;
 }
@@ -910,7 +924,7 @@ a:hover {
 .page-header .ph-text .ph-title h1 {
   font-weight: 900;
   font-size: 2.3rem;
-  background: rgba(92, 219, 149, 0.8);
+  background: rgba(5, 56, 107, 0.8);
   display: inline-block;
   padding: 2rem;
 }
@@ -937,7 +951,7 @@ a:hover {
   }
   .hero .hero-text .heading h1 {
     font-size: 1.7rem;
-    line-height: 2.1rem;
+    line-height: 2.9rem;
   }
   .hero .hero-text .sub-heading {
     margin-left: 20%;
@@ -1023,18 +1037,9 @@ a:hover {
     font-size: 2rem;
     font-weight: 900;
   }
-  .hero {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.7)), to(rgba(92, 219, 149, 0.8))), url("../img/main-hero.jpg") no-repeat center;
-    background: linear-gradient(rgba(30, 39, 46, 0.7), rgba(92, 219, 149, 0.8)), url("../img/main-hero.jpg") no-repeat center;
-  }
-  .hero .hero-text {
-    background: transparent;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
   .hero .hero-text .heading h1 {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
   }
   .hero .hero-text .sub-heading h5 {
     font-size: 1rem;
@@ -1103,14 +1108,6 @@ a:hover {
   .hero .hero-text .hero-text-content {
     padding-left: 1%;
     text-align: left;
-  }
-  .hero .hero-text .heading {
-    margin-left: 1%;
-  }
-  .hero .hero-text .heading h1 {
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
   }
   .hero .hero-text .sub-heading {
     display: none;

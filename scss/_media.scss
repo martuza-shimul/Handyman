@@ -7,7 +7,7 @@
 			.heading {
 				h1 {
 					font-size: 1.7rem;
-					line-height: 2.1rem;
+					line-height: 2.9rem;
 				}
 			}
 			.sub-heading {
@@ -134,20 +134,20 @@
 		}
 	}
 	.hero {
-		background: linear-gradient(
-				rgba($text-color, 0.7),
-				rgba($primary-color, 0.8)
-			),
-			url("../img/main-hero.jpg") no-repeat center;
+		// background: linear-gradient(
+		// 		rgba($text-color, 0.7),
+		// 		rgba($primary-color, 0.8)
+		// 	),
+		// 	url("../img/main-hero.jpg") no-repeat center;
 		.hero-text {
-			background: transparent;
-			clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+			// background: transparent;
+			// clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 			// margin-left: -15px;
 
 			.heading {
 				h1 {
-					font-size: 1.4rem;
-					line-height: 1.7rem;
+					font-size: 1.6rem;
+					line-height: 2.7rem;
 				}
 			}
 			.sub-heading {
@@ -241,15 +241,15 @@
 				padding-left: 1%;
 				text-align: left;
 			}
-			.heading {
-				// text-align: left;
-				margin-left: 1%;
-				h1 {
-					text-align: left;
-					font-size: 1.4rem;
-					line-height: 1.7rem;
-				}
-			}
+			// .heading {
+			// 	// text-align: left;
+			// 	margin-left: 1%;
+			// 	h1 {
+			// 		text-align: left;
+			// 		font-size: 1.4rem;
+			// 		line-height: 1.7rem;
+			// 	}
+			// }
 			.sub-heading {
 				display: none;
 			}
