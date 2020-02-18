@@ -195,6 +195,10 @@ a:hover {
   border-color: #05386b;
 }
 
+.modal-body {
+  background: #5cdb95;
+}
+
 .quote-engine-wrapper h5 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -208,9 +212,25 @@ a:hover {
   margin: 0.3rem 2rem;
 }
 
+.quote-engine-wrapper .button {
+  background: transparent;
+  border-color: #05386b;
+  color: #05386b;
+}
+
+.quote-engine-wrapper .button:hover {
+  background: #f2f2f2;
+  border-color: #f2f2f2;
+}
+
 .modal-footer {
   padding: 0.3rem;
-  background: #d2dae2;
+  background: #05386b;
+}
+
+.modal-footer .button:hover {
+  background: #f2f2f2;
+  color: #05386b;
 }
 
 .hero {

@@ -1,4 +1,8 @@
+.modal-body{
+	background: $primary-color;
+}
 .quote-engine-wrapper {
+	
 	h5 {
 		font-size: 1.5rem;
 		font-weight: 600;
@@ -10,11 +14,24 @@
 		display: block;
 		margin: 0.3rem 2rem;
 	}
+	.button{
+		background: transparent;
+		border-color: $secondary-color;
+		color: $secondary-color;
+		&:hover{
+			background: $text-rev;
+			border-color: $text-rev;
+		}
+	}
 }
 // .modal-content {
 // 	border-radius: 3rem 3rem 0.3rem 0.3rem;
 // }
 .modal-footer {
 	padding: 0.3rem;
-	background: $background;
+	background: $secondary-color;
+	.button:hover{
+		background: $text-rev;
+		color: $secondary-color;
+	}
 }
