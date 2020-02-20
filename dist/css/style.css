@@ -365,6 +365,12 @@ a:hover {
   text-transform: capitalize;
 }
 
+.card-holder .ch-content-holder .sub-heading .price h5 {
+  font-size: 1.07rem;
+  font-weight: 500;
+  color: #1e272e;
+}
+
 .card-holder .ch-content-holder .star {
   color: #5cdb95;
 }
@@ -924,6 +930,7 @@ a:hover {
 .page-header .ph-text .ph-title h1 {
   font-weight: 900;
   font-size: 2.3rem;
+  font-family: "Josefin Sans", sans-serif;
   background: rgba(5, 56, 107, 0.8);
   display: inline-block;
   padding: 2rem;
@@ -969,11 +976,17 @@ a:hover {
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 2%;
+  letter-spacing: 2px;
+}
+
+.about .about-content h3 small, .about .about-content h3 span {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .about .about-content p {
-  font-size: 1.1rem;
-  color: #1e272e;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 
 .pricing {

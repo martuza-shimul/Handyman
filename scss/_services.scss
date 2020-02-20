@@ -27,6 +27,14 @@
         color: $secondary-color;
         text-transform: capitalize;
       }
+      .price{
+        h5{
+          font-size: 1.07rem;
+        font-weight: 500;
+        color: $text-color;
+        }
+        
+      }
     }
     .star{
       color: $primary-color;

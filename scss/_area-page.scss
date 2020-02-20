@@ -18,11 +18,17 @@
 		h3 {
 			font-size: 2rem;
 			font-weight: 900;
-			margin-bottom: 2%;
+      margin-bottom: 2%;
+      letter-spacing: 2px;
+      small,span{
+        font-family: "Josefin Sans", sans-serif;
+      }
 		}
 		p {
-      font-size: 1.1rem;
-      color: $text-color;
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      // color: $text-color;
 		}
 	}
 
