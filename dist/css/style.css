@@ -366,9 +366,10 @@ a:hover {
 }
 
 .card-holder .ch-content-holder .sub-heading .price h5 {
-  font-size: 1.07rem;
+  font-size: 1.18rem;
   font-weight: 500;
   color: #1e272e;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .card-holder .ch-content-holder .star {
