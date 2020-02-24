@@ -12,6 +12,23 @@ if(empty($_POST['first-name'])  		||
 	return false;
    }
 
+   // File upload functionality
+$new_path = "No files Uploaded";
+if(!empty($_FILES['uploaded_file']))
+  {
+    $path = "uploads/";
+    $path = $path . basename( $_FILES['uploaded_file']['name']);
+
+    if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
+      $new_path: "File:  <a href=" .$path. ">Check here</a>";
+  
+    } else{
+        echo "There was an error uploading the file, please try again!";
+    }
+  }
+
+
+
    
 $service_type = $_POST['first'];
 // $second = $_POST['check'];
@@ -44,7 +61,7 @@ $email_subject = "Website Quote Engine:  $first_name";
 
 $email_body = "You have received a new message from your Handyman website Quote Engine .\n\n"."Here are the details:\n\nFirst Name: $first_name\n\n  Postcode: $postcode \n\nPhone: $phone\n\nEmail: $email\n\n Message: $message
 
-\n\n\n Here is the Quote Request: \n Place to service: $service_type\n Service Name: $service_name\n Urgency: $urgency\n Materials: $materials";
+\n\n\n Here is the Quote Request: \n Place to service: $service_type\n Service Name: $service_name\n Urgency: $urgency\n Materials: $materials\n Uploaded File: $new_path";
 
 // Weekly Price range: $price_range\n Area: $area \n How urgent : $urgency \n  For how long: $timeline 
 
