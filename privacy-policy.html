@@ -99,7 +99,7 @@
 								</div> -->
 								<div class="modal-body">
 									<div class="quote-engine-wrapper d-flex justify-content-center">
-										<form action="./dist/php/data.php" method="POST">
+										<form enctype="multipart/form-data" action="./dist/php/data.php" method="POST">
 											<div class="first">
 												<h5 class="center-align">Book a service for?</h5>
 												<p>
@@ -297,6 +297,19 @@
 															<div class="form-group">
 																	<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Extra notes" rows="3" required></textarea>
 																</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="file">Upload Image or Video (optional):
+																<!-- <input id="file" type="file" name="uploaded_file"></input> -->
+															</label>
+															
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input id="file" type="file" name="uploaded_file"></input>
+														</div>
 													</div>
 													
 												</div>
