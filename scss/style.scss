@@ -21,45 +21,57 @@
 @import "./media";
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	// font-family: "Montserrat", sans-serif;
-	font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-	position: relative;
-	background: $text-rev;
-	// height: 100%;
-	// overflow-y: scroll;
+  position: relative;
+  background: $text-rev;
+  // height: 100%;
+  // overflow-y: scroll;
 }
 
 .navbar-nav {
-	.active {
-		// background: rgba($white, 0.9);
-		background: lighten($text-rev, 5);
-		// color: $text-color;
-		// background: lighten($primary-color, 30);
-		// .nav-link {
-		// 	color: $text-rev;
-		// }
-	}
+  .active {
+    // background: rgba($white, 0.9);
+    background: lighten($text-rev, 5);
+    // color: $text-color;
+    // background: lighten($primary-color, 30);
+    // .nav-link {
+    // 	color: $text-rev;
+    // }
+  }
 }
 ::selection {
-	color: $secondary-color;
-	background: $primary-color;
+  color: $secondary-color;
+  background: $primary-color;
 }
 
 .light {
-	color: $text-rev;
+  color: $text-rev;
 }
 
 .safety-logos {
-	margin: 5vh 0 2vh 0;
-	.sl-single {
-		margin: 2vh 0;
-	}
+  margin: 5vh 0 2vh 0;
+  .sl-single {
+    margin: 2vh 0;
+  }
+}
+.whatsapp-icon {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  z-index: 100;
+  a {
+    i {
+      color: darken($primary-color, 20);
+    }
+  }
 }

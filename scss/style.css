@@ -29,7 +29,7 @@
   color: #f2f2f2;
   border-color: #05386b;
   -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
-  box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   z-index: 3;
@@ -73,7 +73,7 @@
 .wb-button:hover i {
   color: #5cdb95;
   -webkit-transform: translateX(25px);
-  transform: translateX(25px);
+          transform: translateX(25px);
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
 }
@@ -97,7 +97,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .equal > [class*="col-"] {
@@ -106,8 +106,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .bold {
@@ -212,7 +212,7 @@ a:hover {
   margin: 0.3rem 2rem;
 }
 
-.quote-engine-wrapper p input[type="radio"] {
+.quote-engine-wrapper p input[type=radio] {
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -298,7 +298,7 @@ a:hover {
   background: rgba(92, 219, 149, 0.7);
   padding: 5% 10% 5% 5%;
   -webkit-clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
-  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
 }
 
 .hero-shapes .hs-content p {
@@ -342,15 +342,14 @@ a:hover {
   background: rgba(255, 255, 255, 0.7);
   margin: 1.5rem 0;
   -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
-  box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .card-holder .ch-image-holder .img-fluid {
   width: 100%;
 }
 
-.card-holder .ch-content-holder,
-.card-holder .ch-footer {
+.card-holder .ch-content-holder, .card-holder .ch-footer {
   margin: 1rem;
   padding: 1rem 0;
 }
@@ -380,9 +379,9 @@ a:hover {
 .card-holder:hover {
   background: white;
   -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
-  box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.35rem);
-  transform: translateY(-0.35rem);
+          transform: translateY(-0.35rem);
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
@@ -547,7 +546,7 @@ a:hover {
   padding: 2.5rem 1rem;
   background: rgba(255, 255, 255, 0.7);
   -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
-  box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .wwd-content-block .icon-holder {
@@ -571,9 +570,9 @@ a:hover {
 .wwd-content-block:hover {
   background: white;
   -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
-  box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.25rem);
-  transform: translateY(-0.25rem);
+          transform: translateY(-0.25rem);
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
 }
@@ -649,13 +648,13 @@ a:hover {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-item-align: stretch;
-  align-self: stretch;
+      align-self: stretch;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .how-it-works.row .col-2::after {
@@ -833,14 +832,14 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .area-cover .flex-item {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   min-width: 200px;
 }
 
@@ -880,11 +879,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   font-size: 1.6rem;
   font-weight: 600;
@@ -905,7 +904,6 @@ a:hover {
   font-size: 0.8rem;
   font-weight: 500;
   padding: 15px 0;
-  z-index: 0;
 }
 
 .footer p {
@@ -966,7 +964,7 @@ a:hover {
 
 .about .image-holder {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   background: #f2f2f2;
   padding: 2%;
 }
@@ -982,8 +980,7 @@ a:hover {
   letter-spacing: 2px;
 }
 
-.about .about-content h3 small,
-.about .about-content h3 span {
+.about .about-content h3 small, .about .about-content h3 span {
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -998,29 +995,29 @@ a:hover {
   position: relative;
   margin: -1px 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .pricing .service-template {
   background: rgba(255, 255, 255, 0.6);
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 3% 0;
   padding: 4%;
   border-radius: 0;
   -webkit-box-shadow: 0px 5px 5px -5px rgba(30, 39, 46, 0.4);
-  box-shadow: 0px 5px 5px -5px rgba(30, 39, 46, 0.4);
+          box-shadow: 0px 5px 5px -5px rgba(30, 39, 46, 0.4);
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .pricing .service-template .st-image {
@@ -1094,9 +1091,9 @@ a:hover {
 .pricing .service-template:hover {
   background: white;
   -webkit-transform: scale(1.01, 1.01);
-  transform: scale(1.01, 1.01);
+          transform: scale(1.01, 1.01);
   -webkit-box-shadow: 0px 10px 10px -10px rgba(30, 39, 46, 0.4);
-  box-shadow: 0px 10px 10px -10px rgba(30, 39, 46, 0.4);
+          box-shadow: 0px 10px 10px -10px rgba(30, 39, 46, 0.4);
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
 }
@@ -1231,7 +1228,7 @@ a:hover {
   .services::after {
     border-bottom: 100px solid #05386b;
     -webkit-clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
-    clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
+            clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
   }
   .service-gellary {
     padding: 6% 0 8% 0;
@@ -1242,7 +1239,7 @@ a:hover {
   .service-gellary::after {
     border-bottom: 50px solid #f2f2f2;
     -webkit-clip-path: polygon(0% 100%, 50% 97%, 100% 100%);
-    clip-path: polygon(0% 100%, 50% 97%, 100% 100%);
+            clip-path: polygon(0% 100%, 50% 97%, 100% 100%);
   }
   .sm-hide {
     display: none;
@@ -1288,7 +1285,7 @@ a:hover {
   .services::after {
     border-bottom: 80px solid #05386b;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
-    clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
+            clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
   }
   .service-gellary {
     padding: 6% 0 14% 0;
@@ -1297,7 +1294,7 @@ a:hover {
     margin-top: 1px;
     border-bottom: 40px solid #f2f2f2;
     -webkit-clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
-    clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
+            clip-path: polygon(0% 100%, 50% 99%, 100% 100%);
   }
   .contact {
     padding-top: 30px;
@@ -1308,7 +1305,7 @@ a:hover {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
